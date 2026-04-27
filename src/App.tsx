@@ -60,6 +60,8 @@ export default function App() {
           </div>
           <p className="text-sm text-brand-navy/30 font-medium max-w-2xl leading-relaxed">
             &copy; 2024 Admsllp Digital Marketing. Helping businesses in Assam thrive in the digital age.
+            <br />
+            Support: <a href="tel:1800-889-0140" className="hover:text-brand-navy font-bold">1800-889-0140</a>
           </p>
           <p className="text-xs text-brand-navy/20 font-bold uppercase tracking-[0.2em]">
             Design by <a href="https://www.ozosoft.in" target="_blank" rel="noopener noreferrer" className="hover:text-brand-navy transition-colors">OZOSOFT</a>

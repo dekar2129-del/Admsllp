@@ -4,7 +4,7 @@
  */
 
 import { motion } from "motion/react";
-import { Send } from "lucide-react";
+import { Send, Phone } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -13,7 +13,13 @@ export default function Contact() {
         <div className="relative z-10 grid md:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-5xl font-bold tracking-tighter leading-[0.9]">Start your journey today.</h2>
-            <p className="mt-6 text-white/50 text-xl font-medium">Join our 2M+ community and experience the future of investing.</p>
+            <p className="mt-6 text-white/50 text-xl font-medium">Join our 2M+ community and experience the future of digital marketing.</p>
+            <div className="mt-8 flex items-center gap-3 text-brand-green">
+              <div className="bg-brand-green/20 p-3 rounded-full">
+                <Phone className="w-6 h-6" />
+              </div>
+              <a href="tel:1800-889-0140" className="text-2xl font-bold hover:underline">1800-889-0140</a>
+            </div>
           </div>
           
           <div className="space-y-4">
